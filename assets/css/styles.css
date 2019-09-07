@@ -1,0 +1,580 @@
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.carousel-control-prev
+{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    bottom: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-left: 0;
+    line-height: 50px;
+    color: #fff;
+    font-size: 28px;
+    display: block;
+    transition:all .3s;
+    
+}
+
+.carousel-control-next:hover
+{
+    transition: all 1s;
+    color: #000000;
+    background-color: white;
+        
+}
+
+.carousel-control-prev:hover
+{
+    transition: all 1s;
+    color: #000000;
+    background-color: white;
+        
+        
+}
+
+.carousel-control-next
+{
+    position: absolute;
+    left: 0px;
+    bottom: 50%;
+    top: 57.2%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-left: 0;
+    line-height: 50px;
+    color: #fff;
+    font-size: 28px;
+    display: block;
+    transition: all .3s ease;
+    
+  
+}
+
+
+.slider {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.btn-color {
+    background-color: #00D5EE;
+}
+
+.slider1Background {
+    background-image: url("../img/bg-image-28.jpg");
+    background-size: cover;
+}
+
+.innerSlider h1
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 78px;
+    letter-spacing: -3px;
+    line-height: 1.25;
+    font-weight: 900;
+    
+    
+}
+.slider2Background {
+    background-image: url("../img/bg-image-29.jpg");
+    background-size: cover;
+}
+.nav-link
+{
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+
+.nav-link:hover
+{
+    color: #e1e1e1;
+}
+
+
+.mainNav
+{
+    position: relative;
+    
+}
+
+.mainNav:after
+{
+
+    position: absolute;
+    right: -4px;
+    content: "";
+    background: transparent;
+    border-right: solid 1px rgba(255,255,255,.50);
+    height: 70px;
+    
+}
+
+.socialNav {
+    margin-right: -460px
+}
+
+
+
+.main-nav 
+{
+    border-bottom: solid 1px rgba(255,255,255,.40)
+    
+}
+
+.mainNav a
+{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+@media (min-width: 769px)
+{
+    .slider2Background button ,.slider1Background button
+    {
+        font-size: 16px;
+        padding: 15px 25px 15px 25px;
+    }
+}
+@media (max-width: 768px)
+{
+    .slider2Background h1 ,.slider1Background h1
+    {
+        font-size: 62px;
+    }
+    .slider2Background h4 ,.slider1Background h4
+    {
+        font-size: 16px;
+    }
+    .slider2Background button ,.slider1Background button
+    {
+        font-size: 12px;
+        padding: 15px 15px 15px 15px;
+    }
+}
+    
+    @media (max-width: 576px)
+{
+    .slider2Background h1 ,.slider1Background h1
+    {
+        font-size: 52px;
+    }
+    .slider2Background h4 ,.slider1Background h4
+    {
+        font-size: 16px;
+    }
+    .slider2Background button ,.slider1Background button
+    {
+        font-size: 12px;
+        padding: 15px 15px 15px 15px;
+    }
+    
+    
+}
+
+.bg-shadow
+{
+    background-color: rgba(0,0,0,.30);
+    
+}
+
+.who-are-we p
+{
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.what-we-do
+{
+    padding: 90px 20px 0 100px;
+    
+}
+
+.what-we-do h2
+{
+    font-size: 38px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.what-we-do h5
+{
+    color: #212529;
+    padding-bottom: 30px;
+    
+}
+
+.what-we-do  i
+{
+    color: #00c3da;
+    padding-right: 10px;
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    
+}
+
+
+.card-brdr
+{
+    border:2px solid #e6e6e6;
+    
+}
+
+.plus-icon
+{
+    position: relative;
+    top: 0%;
+    left: 80%;
+    color: #DDDDDD;
+    display: 1;
+    
+}
+.plus-icon:after
+{
+    content: "";
+    background: transparent;
+    border-right: solid 2px #DDDDDD;
+    position: absolute;
+    top: -20px;
+    left: 35px;
+    height: 63px;
+}
+.minus-icon
+{
+    position: relative;
+    top: 100%;
+    left: 25%;
+    color: #DDDDDD;
+    opacity: 0;
+    
+}
+
+.img-2
+{
+    width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0%;
+    bottom: 0;
+}
+
+.animated-txt:after
+{
+    margin: 0;
+    padding: 0;
+    content: "";
+    color: rgba(0,213,238,1.00);
+    margin-right: .3px;
+    animation:animated-text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes animated-text
+{
+    0%
+    {
+        content: "",
+    }
+    
+    5%
+    {
+        content: "We";
+    }
+    
+    10%
+    {
+        content: "Webs";
+    }
+    15%
+    {
+        content: "Websit";
+    }
+    
+    20%
+    {
+        content: 'Websites';
+    }
+    21%
+    {
+        content: 'Websites';
+    }
+    22%
+    {
+        content: 'Websites';
+    }
+    
+    25%
+    {
+        content: 'Websit';
+    }
+    
+    30%
+    {
+        content: 'Webs';
+    }
+    
+    35%
+    {
+        content: 'We';
+    }
+    
+    40%
+    {
+        content: '';
+    }
+    
+    45%
+    {
+        content: 'Ap';
+    }
+    
+    50%
+    {
+        content: 'Apps';
+    }
+    
+    55%
+    {
+        content: 'Ap';
+    }
+    
+    60%
+    {
+        content: '';
+    }
+    
+    65%
+    {
+        content: 'So';
+    }
+    
+    70%
+    {
+        content: 'Soft';
+    }
+    
+    75%
+    {
+        content: 'Softwa';
+    }
+    
+    80%
+    {
+        content: 'Softwares';
+    }
+    
+    85%
+    {
+        content: 'Softwa';
+    }
+    
+    90%
+    {
+        content: 'Soft';
+    }
+    
+    95%
+    {
+        content: 'So';
+    }
+    
+    100%
+    {
+        content: '';
+    }
+    
+    
+}
+
+@keyframes brdr
+{
+    0%
+    {
+        border-right: 1px solid #000;
+        opacity: 0;
+    }
+    
+    100%
+    {
+        border-right: 1px solid #000;
+        opacity: 1;
+        
+    }
+}
+
+.who-are-we p 
+{
+    font-size: 18px;
+    margin-top: -15px
+    
+}
+
+.who-are-we span
+{
+    padding: 0;
+    
+}
+
+.team-members
+{
+    background-color: transparent;
+    position: relative;
+    
+}
+
+.member {
+    
+}
+
+.member-hover {
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    background-color: rgba(0, 195, 218, 0.9);
+    transition: all .3s;
+}
+
+.member-info h6
+{
+    font-size: 15px
+    
+    
+}
+
+.member-info p
+{
+    font-size: 13px;
+    margin-top: -10px
+    
+}
+
+.member-info 
+{
+    color: white;
+    position: relative;
+    top:69%;
+    left: 15px
+    
+}
+.mem-img:hover .member-hover
+{
+    opacity: 1;
+    top: 0;
+    
+}
+.mem-img
+{
+    position: relative;
+}
+
+.what-we-do-down
+{
+    background-image: url("../img/bg-image-26.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.icons-down {
+    color: rgba(255,255,255,0.77);
+}
+
+.icons-down p
+{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    
+}
+
+.whatWeDo h2
+{
+    font-weight: 800;
+}
+
+.whatWeDo p
+{
+    font-size: 15px;
+    
+}
+
+.whatWeDo li
+{
+    font-size: 15px
+    
+}
+
+.desc
+{
+    color:#000;
+    background-color: #fff;
+    position: absolute;
+    bottom:5%;
+    right: 10%;
+    left:10%;
+    height:40%;
+    transition:opacity .4s, bottom .4s ;
+    opacity: 0;
+    
+}
+
+.photo:hover .desc
+{
+    opacity: 1;
+    bottom: 10%;
+    
+    
+}
+.desc h5
+{
+    opacity: 0;
+    transition:all 1s;
+    
+}
+
+.photo:hover .desc h5
+{
+    opacity: 1;
+    
+}
+
+.desc p
+{
+    opacity: 0;
+    transition:all 1.3s;
+}
+
+.photo:hover .desc p
+{
+    opacity: 1;
+    
+}
+
+.items-links
+{
+    text-decoration: none;
+    
+}
+
+.photo {
+    margin: 20px 0;
+}
+
+
